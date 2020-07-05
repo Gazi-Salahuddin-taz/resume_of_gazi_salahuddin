@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color: beige;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.container{
+    max-width: 1000px;
+    background-color: ivory;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+.profile-img{
+
+    width: 100px;
+    height: 120px ;
+    float: left;
+    border:3px solid white;
+    border-radius: 50%;
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: navy;
+}
+
+.header-contact{
+   float: Right;
+   padding: 30px;
+}
+
+.header-contact a{
+    color: navy;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.header-contact :hover{
+    text-decoration:underline;
+    color:tomato;
+}
+
+.dive-clear{
+    clear:both;
+}
+
+hr{
+    border: solid black;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+
+}
+
+/*-------------------------
+Personal Information
+---------------------------*/
+
+#personal-section{
+
+}
+
+.content{
+    
+}
+
+.left-div{
+    float:left;
+    width:30%
+
+}
+
+.right-div{
+    float:left;
+    width:70%
+
+}
+
+.common-hr{
+    border: solid black 1px;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+
+}
+
+/*-------------------------
+Educational Section
+---------------------------*/
+
+.edu-left{
+    float:left;
+    width:50%;
+    padding-bottom: 10px;
+}
+
+.edu-right{
+    float:left;
+    width:50%;
+    padding-bottom: 10px;
+}
+
+/*-------------------------
+Vendor Certification
+---------------------------*/
+.t-head-vendor{
+    text-align: left;
+    width:100%;
+    color:navy;
+}
+
+/*-------------------------
+Proffessional Qualification
+---------------------------*/
+
+
+table{
+    width:100%
+    text-align: center;
+}
+
+.t-left-data{
+ width: 20%;
+}
+
+.t-middle-data{
+    width: 60%;
+}
+
+.t-right-data{
+    width: 20%;
+}
+
+.t-head{
+    width:100%;
+    color:navy;
+}
+
+.t-footer-data{
+    text-align: right;
+}
+
+
+
+
+table td{
+    border:solid;
+    text-align: center;
+}
+
+/*-------------------------
+Technologies & Competences
+---------------------------*/
+
+.tecno-section #main-list{
+    float:left;
+    padding-left: 5px;
+}
+
+.tecno-section .sub-list{
+    
+    padding-left: 25px;
+}
+
+/*-------------------------
+Projects
+---------------------------*/
+
+span{
+    font-style: italic;
+    color: red;
+}
+
+.t-project-tab td{
+    border:hidden;
+
+}
+
+.t-project-tab .col-1{
+
+    width:20%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.t-project-tab .col-2{
+    width:80%;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+/*-------------------------
+Personal Details
+---------------------------*/
+
+
+.t-Personal-details-tab td{
+    border:hidden;
+
+}
+
+.t-Personal-details-tab .col-1{
+
+    width:20%;
+    text-align: right;
+    font-weight: bold;
+}
+
+.t-Personal-details-tab .col-2{
+    padding-top: 5px;
+    padding-left: 5px;
+    width:80%;
+    text-align: left;
+}
+
+/*-------------------------
+footer
+---------------------------*/
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding:10px;
+
+}
+
+.bottom-container a{
+    color: white;
+    text-decoration:none;
+    margin:20px;
+}
+
+.bottom-container p{
+    color: white;
+    margin-top:20px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-skype {
+    background: #00aff0;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
